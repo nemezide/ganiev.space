@@ -29,7 +29,7 @@ body {
 	display: flex;
 	align-items: flex-start;
 }
-.header__section: {
+.header__section {
 	display: flex;
 	align-items: flex-start;
 }
