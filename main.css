@@ -24,7 +24,6 @@ body {
 	align: auto;
 	top: auto;
 }
-
 .header{
 	padding: 15px 0px 15px 0px;
 	display: flex;
@@ -47,10 +46,12 @@ body {
 }
 .wrapper{
 padding: 0 40px 0 40px;
-display: grid;
 }
 .content{
 	margin: 0 auto;
+}
+.items{
+	display: grid;
 }
 .item a {
 	color: #0060A0;
