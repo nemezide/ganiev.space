@@ -45,6 +45,7 @@ margin: 0 auto;
 }
 .works{
 	display: grid;
+	grid-template-columns:50% 50%;
 	grid-row-gap: 40px;
 	grid-column-gap: 20px;
 }
@@ -52,7 +53,6 @@ margin: 0 auto;
   	position: relative;
     font-size: 20px;
     line-height: 24px;
-    overflow: hidden;
 }
 .work__item:first-child,
 .work__item:nth-child(3n+4) {
@@ -71,6 +71,7 @@ margin: 0 auto;
 	color: #CE3A00;
 }
 .work__img img{
+	width: 100%;
 	margin-bottom: 8px;
 }
 .work__link a:before{
